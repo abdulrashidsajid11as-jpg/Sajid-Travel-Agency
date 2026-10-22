@@ -1,0 +1,10 @@
+د ساجد ټریوال ایجنسۍ V57 APK جوړولو لارښود
+
+۱) دا ZIP په کمپیوټر کې Extract کړئ.
+۲) د GitHub په حساب کې یو نوی Repository جوړ کړئ او د ZIP ټول فایلونه Upload کړئ.
+۳) د Repository په Actions برخه کې Android APK workflow خلاص کړئ او Run workflow ووهئ.
+۴) تر بریالي Build وروسته د Sajid-Travel-Agency-v57-debug-APK په نوم Artifact ډاونلوډ کړئ.
+۵) ZIP خلاص کړئ؛ app-debug.apk موبایل ته ولېږئ او Install یې کړئ. که Android اجازه وغواړي، د همدې فایل لپاره Install unknown apps فعال کړئ.
+۶) که Build ناکام شي، د Actions د خطا Screenshot راولېږئ.
+
+یادونه: دا Debug APK دی. معلومات محلي/offline دي؛ له کمپیوټر سره اتومات Sync او آنلاین سرور نشته. تر نصب وروسته د واقعي معلوماتو له داخلولو مخکې Backup/Restore وازمویئ.

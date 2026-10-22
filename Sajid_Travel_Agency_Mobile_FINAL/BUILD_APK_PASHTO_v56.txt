@@ -1,0 +1,9 @@
+د ساجد ټریوال ایجنسۍ V56 APK جوړولو لارښود
+
+۱) پروژه GitHub ته upload کړئ.
+۲) Actions ته لاړ شئ او Build Sajid Travel Agency APK → Run workflow ووهئ.
+۳) workflow به Java 17، Android SDK 35، Gradle 8.9 او 17 regression tests اجرا کړي.
+۴) د Sajid-Travel-Agency-v56-debug-APK artifact ډاونلوډ کړئ.
+۵) ZIP خلاص کړئ، app-debug.apk موبایل ته انتقال او نصب کړئ.
+
+یادونه: په دې چاپېریال کې Android SDK/Gradle نه و، نو APK دلته مستقیم نه دی جوړ شوی.

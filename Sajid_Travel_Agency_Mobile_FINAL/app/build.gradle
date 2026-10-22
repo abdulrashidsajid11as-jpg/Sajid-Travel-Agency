@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.sajid.travelagency'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.sajid.travelagency'
+        minSdk 23
+        targetSdk 35
+        versionCode 58
+        versionName '58.0'
+    }
+}

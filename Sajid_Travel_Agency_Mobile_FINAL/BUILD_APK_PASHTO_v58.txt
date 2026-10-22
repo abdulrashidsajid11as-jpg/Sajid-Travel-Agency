@@ -1,0 +1,12 @@
+د ساجد ټریوال ایجنسۍ V58 APK جوړولو لارښود
+
+۱) ZIP فایل Extract کړئ.
+۲) د پروژې ټول فایلونه خپل GitHub repository ته Upload کړئ.
+۳) د GitHub په پاڼه کې Actions ته لاړ شئ.
+۴) Build Sajid Travel Agency APK workflow وټاکئ او Run workflow کلیک کړئ.
+۵) د Build بریالیتوب ته انتظار وباسئ.
+۶) د Sajid-Travel-Agency-v58-debug-APK artifact ډاونلوډ او Extract کړئ.
+۷) app-debug.apk موبایل ته انتقال کړئ او نصب یې کړئ. که Android د نامعلومې سرچینې اجازه وغواړي، یوازې د خپل جوړ شوي فایل لپاره یې فعاله کړئ.
+
+که Build ناکام شي، د Actions د Error پاڼې Screenshot یا Log راولېږئ.
+یادونه: دا Debug APK دی. د APK جوړول په دې چاپېریال کې نه دي تایید شوي؛ PC/mobile cloud sync هم نشته.

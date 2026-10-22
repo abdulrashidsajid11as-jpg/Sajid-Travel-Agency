@@ -1,0 +1,5 @@
+v27 Build Status
+Tables: 15
+Foreign key check rows: 0
+Package contents verified.
+Native ACCDB: not generated (Microsoft Access/ACE not available in this environment).

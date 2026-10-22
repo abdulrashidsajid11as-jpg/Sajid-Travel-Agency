@@ -1,0 +1,11 @@
+{
+  "name": "ساجد ټريوال ایجنسۍ",
+  "short_name": "ساجد ټريول",
+  "lang": "ps",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#075b45",
+  "description": "Travel agency customer, ticket, visa, payment and expense records"
+}

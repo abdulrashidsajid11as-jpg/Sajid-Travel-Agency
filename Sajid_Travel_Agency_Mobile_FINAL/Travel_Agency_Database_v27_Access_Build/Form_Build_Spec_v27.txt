@@ -1,0 +1,12 @@
+v27 ACCESS FORM BUILD SPECIFICATION
+
+Main_Menu: Dashboard buttons -> Customers, Tickets, Visa, Hotels, Transport, Payments, Expenses, Search, Reports, Backup, Exit.
+frmCustomer: CustomerCode, FullName*, FatherName, Phone, PassportNo, PassportExpiry, Nationality, Address, Notes.
+frmTicket: TicketNo, CustomerID*, AirlineID, PNR, FromCity, ToCity, TravelDate, ReturnDate, CabinClass, Price, CurrencyID, SupplierCost, Status, Notes.
+frmVisa: VisaNo, CustomerID*, Country, VisaType, ApplicationDate, IssueDate, ExpiryDate, Cost, CurrencyID, Status, Notes.
+frmPayment: CustomerID*, PaymentDate*, Amount*, CurrencyID*, PaymentType, ReferenceType, ReferenceID, Description.
+frmHotel: CustomerID, HotelName, City, CheckIn, CheckOut, RoomType, Cost, CurrencyID, Status, Notes.
+frmTransport: CustomerID, TransportType, FromLocation, ToLocation, TravelDate, Cost, CurrencyID, Status, Notes.
+frmSearch: one search box; search FullName, Phone, TicketNo, PNR, VisaNo.
+Reports: rptCustomerStatement, rptDailyPayments, rptCustomerBalance, rptTicket, rptVisa, rptInvoice.
+All forms require Save, New, Edit, Delete, Search, Close buttons and required-field validation.

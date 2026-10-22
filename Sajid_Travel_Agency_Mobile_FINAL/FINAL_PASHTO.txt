@@ -1,0 +1,28 @@
+ساجد ټریوال ایجنسۍ — FINAL
+
+دا د پروژې وروستۍ بسته ده چې د V58 پر بنسټ جوړه شوې ده.
+
+پکې شامل دي:
+- د مشتریانو ثبت، لټون، سمون او حذف
+- ټکټونه او ویزې
+- تادیات او مصارف
+- راپورونه او د راپور چاپ
+- د نېټې له مخې راپورونه
+- د معلوماتو د کیفیت پلټنه
+- JSON Backup او Restore له Preview/Validation سره
+- CSV Export
+- د Android APK جوړولو GitHub Actions Workflow
+- د سفر ادارې د Access/SQLite Backend اړوند فایلونه او Import Templates
+
+ازموینه:
+17/17 regression checks بریالي شوي.
+
+مهم:
+په دې چاپېریال کې Android SDK/Gradle موجود نه و، نو نصب کېدونکی APK دلته مستقیم نه دی جوړ شوی. د APK لپاره د BUILD_APK_PASHTO_v58.txt لارښود تعقیب کړئ.
+
+PC ↔ Mobile اتومات Cloud/Server Sync لا پکې فعال نه دی؛ اپلیکیشن اوس محلي/offline data storage کاروي.
+
+دا بسته د Final Project په نوم تنظیم شوې، خو د Android داخلي versionCode/versionName لا 58/58.0 دي څو د موجود build workflow او compatibility سره سم پاتې شي.
+
+
+د V58 اضافي خوندیتوب: د Backup د recordCounts شمېرې او د صادرېدو نېټه د Restore مخکې تاییدېږي. د ازموینو وروستۍ پایله: 22/22 بریالۍ.

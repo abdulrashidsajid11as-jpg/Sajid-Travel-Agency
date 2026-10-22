@@ -1,0 +1,8 @@
+د V53 APK جوړولو لارښود
+1) د Sajid_Travel_Agency_Mobile_v53 فولډر ټول محتویات (پټ .github فولډر هم) د GitHub repository اصلي فولډر ته پورته کړئ.
+2) په GitHub کې Actions ته ولاړ شئ.
+3) Build Sajid Travel Agency APK workflow وټاکئ او Run workflow کېکاږئ.
+4) که کار بریالی شي، Sajid-Travel-Agency-v53-debug-APK artifact ډاونلوډ کړئ.
+5) ZIP خلاص کړئ، app-debug.apk موبایل ته انتقال او د ازموینې لپاره نصب کړئ.
+6) که build ناکام شو، د Actions د خطا screenshot یا log وساتئ.
+یادونه: په دې چاپېریال کې Android SDK/Gradle build نه دی اجرا شوی؛ نو APK نه دی ضمیمه شوی.

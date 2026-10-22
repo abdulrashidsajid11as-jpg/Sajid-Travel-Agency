@@ -1,0 +1,6 @@
+د V56 APK جوړولو لارښود
+
+۱) د پروژې ټول فایلونه GitHub repository ته پورته کړئ، .github فولډر هم شامل کړئ.
+۲) Actions → Build Sajid Travel Agency APK → Run workflow.
+۳) د Sajid-Travel-Agency-v56-debug-APK artifact ډاونلوډ کړئ.
+۴) app-debug.apk راوباسئ او په Android موبایل کې د ازموینې لپاره نصب کړئ.
